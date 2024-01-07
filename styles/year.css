@@ -173,3 +173,64 @@
     font-weight: 700;
     margin: 50px 200px 120px;
 }
+/* fourth container */
+.fourth-container{
+    background-image: url("../resources/Rectangle\ 2.png") ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    max-width: 1320px;
+    height: 1000px;
+    margin: 50px auto;
+    align-items: center;
+    border-radius: 16px; 
+}
+
+.fcont-content{
+    text-align: center;
+}
+.fcont-smtitle{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.fcont-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.fcont-tclr{
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+}
+.fcont-disc{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; 
+}
+.fcont-images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fcont-img1 img{
+    margin: 300px 60px 60px 80px;
+    width: 580px;
+}
+.fcont-img2 img{
+    border: 3px solid black;
+    border-radius: 100%;
+    width: 200px;
+
+}
+.fcont-img3 img{
+    margin: 184px 0px 30px 0px;
+    width: 400px;
+    border-radius: 16px 16px 0px 0px;
+}
