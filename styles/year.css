@@ -16,7 +16,7 @@
     /* background-position: top center; */
     margin: 50px auto;
     align-items: center;
-    border-radius: 16px;
+    border-radius: 16px; 
 } 
 .banner-title{
     color: #FFF;
@@ -129,7 +129,7 @@
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 100%;
     max-width: 1320px;
-    height: 482px;
+    height: 600px;
     margin: 50px auto;
     align-items: center;
     border-radius: 16px; 
@@ -175,61 +175,130 @@
 }
 /* fourth container */
 .fourth-container{
+    /* background-color: antiquewhite; for exp */
+    width: 100%;
+    max-width: 1320px;
+    height: 500px;
+    margin: 50px auto;
+    align-items: center;
+    border-radius: 16px; 
+    display: flex;
+    justify-content: space-between;
+}
+.fcont-container1{
+    max-width: 400px;
+    margin-right: 0;
+}
+.fcont1-title1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.fcont1-title2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.fcont1-disc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.fcont-container2{
+    max-width: 400px;
+    align-items: center;
+    margin-right: 100px;
+}
+.fcont-container2 img{
+    width: 300px;
+    padding: 20px;
+    border-radius: 430px;
+    border: 15px solid #F00;
+
+}
+.fcont-container3{
+    max-width: 300px;
+}
+.fcont3-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.fcont3-disc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+/* fifth container */
+.fifth-container{
     background-image: url("../resources/Rectangle\ 2.png") ;
     background-repeat: no-repeat;
     background-position: bottom;
     width: 100%;
     max-width: 1320px;
-    height: 1000px;
+    height: 1100px;
     margin: 50px auto;
     align-items: center;
     border-radius: 16px; 
 }
 
-.fcont-content{
+.fif-cont-content{
     text-align: center;
 }
-.fcont-smtitle{
+.fif-cont-smtitle{
     color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
-.fcont-title{
+.fif-cont-title{
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
-.fcont-tclr{
+.fif-cont-tclr{
     color: #F00;
     font-size: 72px;
     font-weight: 900;
 }
-.fcont-disc{
+.fif-cont-disc{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
     line-height: 32px; 
+    max-width: 700px;
+    margin: 15px auto;
 }
-.fcont-images{
+.fif-cont-images{
     display: flex;
     justify-content: space-around;
 }
 
-.fcont-img1 img{
+.fif-cont-img1 img{
     margin: 300px 60px 60px 80px;
     width: 580px;
 }
-.fcont-img2 img{
+.fif-cont-img2 img{
     border: 3px solid black;
     border-radius: 100%;
     width: 200px;
 
 }
-.fcont-img3 img{
+.fif-cont-img3 img{
     margin: 184px 0px 30px 0px;
     width: 400px;
     border-radius: 16px 16px 0px 0px;
