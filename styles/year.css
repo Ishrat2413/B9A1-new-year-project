@@ -189,6 +189,7 @@
     max-width: 400px;
     margin-right: 0;
 }
+/* Also shared for sixth container  */
 .fcont1-title1{
     color: #F00;
     font-family: Inter;
@@ -210,6 +211,7 @@
     font-weight: 400;
     line-height: 32px;
 }
+/* ------------------------- */
 .fcont-container2{
     max-width: 400px;
     align-items: center;
@@ -302,4 +304,39 @@
     margin: 184px 0px 30px 0px;
     width: 400px;
     border-radius: 16px 16px 0px 0px;
+}
+
+/* sixth container  */
+.sixth-container{
+    /* background-color: antiquewhite; for exp */
+    width: 100%;
+    max-width: 1320px;
+    margin: 50px auto;
+    align-items: center;
+    border-radius: 16px; 
+}
+.sixth-container img{
+    width: 420px;
+}
+.sicont-content{
+    max-width: 906px;;
+}
+/* for hover effect */
+.sixth-first-row img, .sixth-sec-row img{
+    transition: 1s;
+}
+.sixth-first-row img:hover, .sixth-sec-row img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.sixth-first-row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.sixth-sec-row{
+    display: flex;
+    justify-content: space-between;
 }
