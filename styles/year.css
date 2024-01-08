@@ -189,7 +189,7 @@
     max-width: 400px;
     margin-right: 0;
 }
-/* Also shared for sixth container  */
+/* Also shared for sixth and seventh container  */
 .fcont1-title1{
     color: #F00;
     font-family: Inter;
@@ -340,3 +340,59 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+/* seventh container */
+.seventh-container{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 100%;
+    max-width: 1320px;
+    margin: 50px auto;
+    align-items: center;
+    height: 620px;
+}
+.sev-cont-img{
+    text-align: center;
+    
+}
+.sevcont-content{
+    max-width: 800px;
+    margin: 80px auto;
+}
+.sev-cont-img img{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.sevcont-form{
+    max-width: 500px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+}
+.sevcont-form input{
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    padding: 25px 300px 25px 30px;
+}
+.sevcont-form input::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sevcont-btn-prm{
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    padding: 24px 56px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
