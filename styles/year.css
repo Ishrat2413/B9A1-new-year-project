@@ -123,6 +123,7 @@
     border: none;
     background: transparent;
     margin: 30px 0px 0px 152px ;
+    cursor: pointer;
 }
 /* third container  */
 .third-container{
@@ -164,6 +165,7 @@
     border: none;
     border-radius: 8px;
     background: #F00;
+    cursor: pointer;
 
     color: #FFF;
     text-align: center;
@@ -222,7 +224,13 @@
     padding: 20px;
     border-radius: 430px;
     border: 15px solid #F00;
-
+    /* .. */
+    transition: 1s;
+}
+.fcont-container2 img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 2;
 }
 .fcont-container3{
     max-width: 300px;
@@ -302,8 +310,13 @@
     left: 380px;
     bottom: -30px;
     z-index: 1;
+    transform: 1s;
 }
-
+.discount-img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 2;
+}
 .fif-cont-img3 img{
     margin: 184px 0px 30px 0px;
     width: 438px;
